@@ -11,6 +11,7 @@
     <modules>
         <module>hot-loading</module>
         <module>annotation</module>
+        <module>mbg-tool</module>
     </modules>
 
 
