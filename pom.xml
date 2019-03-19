@@ -12,6 +12,7 @@
         <module>hot-loading</module>
         <module>annotation</module>
         <module>mbg-tool</module>
+        <module>proxy</module>
     </modules>
 
 
