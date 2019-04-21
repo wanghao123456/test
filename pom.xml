@@ -15,6 +15,7 @@
         <module>proxy</module>
         <module>jmh</module>
         <module>lock</module>
+        <module>io</module>
     </modules>
 
 
