@@ -16,6 +16,7 @@
         <module>jmh</module>
         <module>lock</module>
         <module>io</module>
+        <module>spring</module>
     </modules>
 
 
