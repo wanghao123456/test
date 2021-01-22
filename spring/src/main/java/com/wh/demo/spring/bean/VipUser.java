@@ -7,11 +7,7 @@ import lombok.experimental.SuperBuilder;
 @Data
 @SuperBuilder
 @NoArgsConstructor
-public class User {
+public class VipUser extends User {
 
-    private String name;
-
-    private Integer age;
-
-    private String beanSource;
+    private Short level;
 }

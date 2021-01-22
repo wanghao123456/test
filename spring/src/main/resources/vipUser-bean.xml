@@ -4,10 +4,10 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean class="com.wh.demo.spring.bean.User" name="xmlUser">
-        <property name="name" value="wh"/>
-        <property name="age" value="28"/>
-        <property name="beanSource" value="xml"/>
+    <import resource="user-bean.xml"/>
+
+    <bean class="com.wh.demo.spring.bean.VipUser" name="xmlVipUser" parent="xmlUser">
+        <property name="level" value="9"/>
     </bean>
 
 </beans>
